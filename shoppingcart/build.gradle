@@ -23,7 +23,8 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'redis.clients:jedis:3.6.3'
-    annotationProcessor 'org.springframework.boot:spring-boot-starter-test:2.5.4'
+	implementation 'in.yajnesh.util:java-util:1.0.0'
+	annotationProcessor 'org.springframework.boot:spring-boot-starter-test:2.5.4'
 }
 
 dependencyManagement {
